@@ -29,3 +29,14 @@ First Three Records
 | 4f87d114-f522-4ead-93e3-f336402df6aa | 05/04/2024 |	right |	Thomas-Thompson |	1010.34 |	64 |	2378.82 |	55 |	Female |	East Linda|	Credit Card |
 | 6750b7d6-dcc5-48c5-a76a-b6fc9d540fe1 |	02/13/2024 |	summer |	Sanchez-Williams |	400.8 |	95 |	31322.56 |	57 |	Male |	East Angelicastad |	Online |
 
+```SQL
+--- Categorize data into gold, silver, diamond customers
+ SELECT *, 
+CASE
+	WHEN price < 500 THEN 'Silver'
+	WHEN price BETWEEN 500 AND 800 THEN 'gold'
+	else 'Diamond'
+	END AS 'Level'
+FROM mobile_sales;
+```
+
