@@ -63,5 +63,4 @@ SELECT COUNT(DISTINCT Brand) AS 'No. of Brands Available' FROM mobile_sales;
 
 ## Visualization
 ### Pivot Tables
-<img width="951" height="499" alt="mobile_sales_Excel" src="https://github.com/user-attachments/assets/1ae7b281-84b5-46b2-bf4b-cbfb4f83516c" />
 
