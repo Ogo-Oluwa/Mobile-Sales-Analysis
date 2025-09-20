@@ -40,3 +40,21 @@ CASE
 FROM mobile_sales;
 ```
 
+
+```SQL
+--- Retrieve all female customers that bought goods above 900---
+SELECT * FROM mobile_sales
+WHERE CustomerGender = 'Female'
+AND price > 900;
+```
+
+```SQL
+--- Retrieve the most expensive brand ---
+SELECT Brand, MAX(price) AS 'price' FROM mobile_sales
+GROUP BY Brand
+ORDER BY price DESC;
+```
+```SQL
+--- Retrieve number of available brands ---
+SELECT COUNT(DISTINCT Brand) AS 'No. of Brands Available' FROM mobile_sales;
+```
