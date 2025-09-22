@@ -65,7 +65,7 @@ SELECT COUNT(DISTINCT Brand) AS 'No. of Brands Available' FROM mobile_sales;
 ### Pivot Tables
 <img width="968" height="496" alt="mobile_sales_Excel" src="https://github.com/user-attachments/assets/085d9ff7-1eb6-464b-97d1-fdd265d1e72c" />
 
-### PowerBI
+### PowerBI Dashboard
 <img width="924" height="520" alt="Mobile_Sales_dashboard" src="https://github.com/user-attachments/assets/5786facc-48c6-48f3-b801-607c9fe00818" />
 
 
